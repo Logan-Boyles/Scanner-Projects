@@ -4,8 +4,6 @@ from contextlib import redirect_stdout
 from collections import Counter
 from candle_patterns_and_momentum import ensemble_chop_oscillator, get_algorithmic_momentum, get_specific_candle_type, \
     is_ribbon_fanning
-from day_alert_scanner_v1_05_4 import generate_active_zones  # new algo
-
 
 # TODO add back invalidation
 # TODO fix algo so it actually works on this new system again
